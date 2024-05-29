@@ -41,24 +41,25 @@ print(2 <= 1)
 # != მაგალითები
 
 print(2 != 2)
-print()
-print()
-print()
-print()
+print(2 != 5)
+print(8 != 7) 
+print(1 != 7)
+print(9 != 2)
 
+# and მაგალითი
 
+print(False and False)
+print(False and True)
+print(True and False)
+print(True and True)
 
+# or მაგალითი
 
-
-
-
-
-
-
-
-
-
-
+print(False or False)
+print(False or True)
+print(True or False)
+print(True or True)
+print(True or False)
 
 
 
