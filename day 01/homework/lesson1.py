@@ -9,7 +9,7 @@ print(name)
 
 
 name ="andria"
-age =  12
+age =  13
 heigth = 159
 
 
