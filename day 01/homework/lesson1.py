@@ -10,7 +10,7 @@ print(name)
 
 name ="andria"
 age =  13
-heigth = 159
+heigth = 162
 
 
 knows_programing = True
@@ -29,3 +29,7 @@ print(name + " " +  str(age))
 has_pet=True
 
 lives_in_tbilisi=True
+
+
+
+print( name + surname )
