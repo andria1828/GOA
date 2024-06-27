@@ -30,6 +30,7 @@ has_pet=True
 
 lives_in_tbilisi=True
 
+print(has_pet + " " + lives_in_tbilisi + " " + is_ugly + " " + knows_programing)
 
 
 print( name + surname )
