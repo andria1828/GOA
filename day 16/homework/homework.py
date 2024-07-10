@@ -52,7 +52,7 @@ print(numbers)
 # შეინახეთ მონაცემები ცვლადებში
 first_name = "ანდრია"
 last_name = "კობახიძე"
-age = 12
+age = 13
 location = "თბილისი"
 email = "ანდრია@example.com"
 
