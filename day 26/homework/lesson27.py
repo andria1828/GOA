@@ -246,7 +246,7 @@ while index < len(string):
 
 my_list = ["x", "y", "z"]
 
-for element in my_list[:2]:  # Slice to get the first 2 elements
+for element in my_list[:2]:  
     print(element)
 
 #34
@@ -254,7 +254,7 @@ for element in my_list[:2]:  # Slice to get the first 2 elements
 my_list = ["x", "y", "z"]
 index = 0
 
-while index < 2:  # Iterate until index reaches 2 (exclusive of the third element)
+while index < 2:
     print(my_list[index])
     index += 1
 
@@ -281,7 +281,7 @@ for element in my_set:
 #38
 
 my_set = {1, 2, 3}
-my_list = list(my_set)  # Convert set to list
+my_list = list(my_set) 
 
 index = 0
 while index < len(my_list):
@@ -332,7 +332,7 @@ print("Done")
 
 #44
 
-for i in range(5):  # Example for loop, can be any iteration
+for i in range(5):  
     print(i)
 
 print("Done")

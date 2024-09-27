@@ -25,50 +25,50 @@
 }
 #p1 {
     text-decoration: underline;
-    text-decoration-color: rgb(255, 0, 0); /* წითელი */
+    text-decoration-color: rgb(255, 0, 0); 
 }
 #p2 {
     text-decoration: underline;
     text-decoration-style: dotted;
-    text-decoration-color: #00FF00; /* მწვანე */
+    text-decoration-color: #00FF00; 
 }
 #p3 {
     text-decoration: underline;
     text-decoration-style: dashed;
-    text-decoration-color: rgb(0, 0, 255); /* ლურჯი */
+    text-decoration-color: rgb(0, 0, 255); 
 }
 #p4 {
     text-decoration: underline;
     text-decoration-style: wavy;
-    text-decoration-color: #FF00FF; /* ვარდისფერი */
+    text-decoration-color: #FF00FF; 
 }
 #p5 {
     text-decoration: underline;
     text-decoration-style: double;
-    text-decoration-color: rgb(255, 165, 0); /* ნარინჯისფერი */
+    text-decoration-color: rgb(255, 165, 0); 
 }
 #p6 {
     text-decoration: underline;
     text-decoration-style: solid;
-    text-decoration-color: #800080; /* ღია ფანქრისფერი */
+    text-decoration-color: #800080; 
 }
 #p7 {
     text-decoration: underline;
     text-decoration-style: wavy;
-    text-decoration-color: rgb(0, 255, 255); /* ციანიური */
+    text-decoration-color: rgb(0, 255, 255); 
 }
 #p8 {
     text-decoration: underline;
     text-decoration-style: dotted;
-    text-decoration-color: #FF6347; /* თომატური */
+    text-decoration-color: #FF6347; 
 }
 #p9 {
     text-decoration: underline;
     text-decoration-style: double;
-    text-decoration-color: rgb(0, 128, 0); /* მუქი მწვანე */
+    text-decoration-color: rgb(0, 128, 0); 
 }
 #p10 {
     text-decoration: underline;
     text-decoration-style: dashed;
-    text-decoration-color: #FFD700; /* ოქროსფერი */
+    text-decoration-color: #FFD700; 
 }

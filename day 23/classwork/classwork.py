@@ -47,6 +47,3 @@ def print_strings_as_list(*args):
     
     print("List of strings entered:")
     print(string_list)
-
-# Example usage:
-print_strings_as_list("Hello", "World", "Python")

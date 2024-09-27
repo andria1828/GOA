@@ -9,9 +9,8 @@ def arithmetic_operations(a, b):
     if b != 0:
         division_result = a / b
     else:
-        division_result = None  # შეცდომის მიზეზი, როდესაც b-ი არის 0
+        division_result = None  
     
-    # აბრუნებს ყველა შედეგს რომლებიც მიიღება ამ ორ რიცხვს შორის
     return {
         'sum': sum_result,
         'difference': difference_result,
@@ -19,7 +18,6 @@ def arithmetic_operations(a, b):
         'division': division_result
     }
 
-# ფუნქციის გამოძახება
 a = 10
 b = 5
 results = arithmetic_operations(a, b)
@@ -34,9 +32,6 @@ else:
 
 
 
-
-
-
 def add_until_sum_less_than_100(a, b):
     sum_result = a + b
     while sum_result >= 100:
@@ -45,7 +40,6 @@ def add_until_sum_less_than_100(a, b):
     
     return sum_result, b
 
-# ფუნქციის გამოძახება
 a = 80
 b = 30
 sum_result, adjusted_b = add_until_sum_less_than_100(a, b)
@@ -61,11 +55,10 @@ print(f"Adjusted second number: {adjusted_b}")
 
 def is_even_or_odd(number):
     if number % 2 == 0:
-        return True  # ლუწი რიცხვი
+        return True  
     else:
-        return False  # კენტი რიცხვი
+        return False  
 
-# ფუნქციის გამოძახება რამოდენიმე რიცხვისთვის
 numbers = [5, 10, 3, 8, 7]
 for number in numbers:
     if is_even_or_odd(number):
@@ -78,9 +71,9 @@ for number in numbers:
 
 def find_max_number(nums):
     if not nums:
-        return None  # თუ ლისტი ცარიელია, აბრუნებს None-ს
+        return None  
     
-    max_num = nums[0]  # პირველი რიცხვის მაქსიმალური რიცხვის განსაზღვრა
+    max_num = nums[0]  
     
     for num in nums:
         if num > max_num:
@@ -88,7 +81,6 @@ def find_max_number(nums):
     
     return max_num
 
-# ფუნქციის გამოძახება
 numbers = [3, 7, 2, 9, 5]
 max_number = find_max_number(numbers)
 print(f"The maximum number in the list is: {max_number}")
@@ -105,7 +97,6 @@ def sum_of_list(numbers):
     
     return total_sum
 
-# ფუნქციის გამოძახება
 numbers = [3, 7, 2, 9, 5]
 list_sum = sum_of_list(numbers)
 print(f"The sum of the numbers in the list is: {list_sum}")
@@ -118,7 +109,6 @@ def concat_and_return_length(string, integer):
     length = len(concatenated)
     return concatenated, length
 
-# ფუნქციის გამოძახება
 string_input = "Hello"
 integer_input = 123
 result_string, result_length = concat_and_return_length(string_input, integer_input)
@@ -133,12 +123,11 @@ def find_longest_and_shortest(strings):
     if not strings:
         return None, None
     
-    longest = min(strings, key=len)  # ყველაზე გრძელი სტრინგი
-    shortest = max(strings, key=len)  # ყველაზე მოკლე სტრინგი
+    longest = min(strings, key=len)  
+    shortest = max(strings, key=len)  
     
     return longest, shortest
 
-# ფუნქციის გამოძახება
 string_list = ["apple", "banana", "orange", "kiwi"]
 longest_string, shortest_string = find_longest_and_shortest(string_list)
 
@@ -161,7 +150,6 @@ def swap_case(input_string):
     
     return swapped_string
 
-# ფუნქციის გამოძახება
 input_str = "Hello World 123!"
 result_str = swap_case(input_str)
 
@@ -174,11 +162,11 @@ print(f"Swapped case string: {result_str}")
 def count_letters(string):
     count = 0
     for char in string:
-        if char.isalpha():  # გამოითვლება მხოლოდ ასოები
+        if char.isalpha(): 
             count += 1
     return count
 
-# ფუნქციის გამოძახება
+
 input_string = "Hello World 123!"
 letter_count = count_letters(input_string)
 
@@ -206,7 +194,7 @@ print(is_even(-5))
 def sum_even_indices(numbers):
     total = 0
     for index in range(len(numbers)):
-        if index % 2 == 0:  # Check if index is even
+        if index % 2 == 0:  
             total += numbers[index]
     return total
 
@@ -240,7 +228,7 @@ def is_prime(number):
         if number % i == 0:
             return False  
     
-    return True  # 
+    return True  
 
 
 
@@ -251,20 +239,18 @@ def is_prime(number):
 
 
 def is_prime(n):
-    """ აბრუნებს True, თუ n მარტივია, და False თუ არა """
     if n <= 1:
         return False
     if n == 2:
-        return True  # 2 არის მარტივი რიცხვი
+        return True  
     if n % 2 == 0:
-        return False  # ლუწი რიცხვია და არ არის 2, ამიტომ არ არის მარტივი
+        return False  
     sqrt_n = int(n**0.5) + 1
     for i in range(3, sqrt_n, 2):
         if n % i == 0:
             return False
     return True
 
-# ფუნქციის გამოძახება მაგალითისთვის:
 number = 29
 if is_prime(number):
     print(f"{number} მარტივია")
@@ -281,11 +267,9 @@ else:
 
 
 def capitalize_names(names):
-    """ აბრუნებს სიას დაწყებული დიდ ასოთი სახელებით """
     capitalized_names = [name.capitalize() for name in names]
     return capitalized_names
 
-# ფუნქციის გამოძახება მაგალითისთვის:
 names = ["alice", "bob", "charlie"]
 updated_names = capitalize_names(names)
 print(updated_names)
@@ -300,8 +284,6 @@ print(updated_names)
 
 
 def modify_list(numbers):
-    """ აბრუნებს განახლებული სიას, სადაც ლუწი რიცხვები მართებულია ამავე რიცხვზე,
-    ხოლო კენტი რიცხვები მიხედვით გამრავლებულია ორზე. """
     modified_list = []
     for num in numbers:
         if num % 2 == 0:
@@ -310,7 +292,6 @@ def modify_list(numbers):
             modified_list.append(num * 2)
     return modified_list
 
-# ფუნქციის გამოძახება მაგალითისთვის:
 numbers = [1, 2, 3, 4, 5]
 updated_numbers = modify_list(numbers)
 print(updated_numbers)
@@ -328,12 +309,10 @@ print(updated_numbers)
 
 
 def reverse_and_capitalize(text):
-    """ აბრუნებს ტექსტს, რომელიც შებრუნდება და ყველა ასო არის დიდი ასოთი """
-    reversed_text = text[::-1]  # შებრუნება
-    capitalized_text = reversed_text.upper()  # ყველა ასოს გადაწერა დიდი ასოთი
+    reversed_text = text[::-1] 
+    capitalized_text = reversed_text.upper() 
     return capitalized_text
 
-# ფუნქციის გამოძახება მაგალითისთვის:
 input_text = "hello world"
 result = reverse_and_capitalize(input_text)
 print(result)
@@ -342,12 +321,7 @@ print(result)
 
 
 
-
-
-
 def categorize_strings(string_list):
-    """ დაამატებს სტრინგებს მათი ტიპისამების შესაბამის სიაში (odd / even), 
-    და ბოლოს დაბეჭდავს მოცემულ სიის ყველა სტრინგს დიდ ასოთი."""
     odd = []
     even = []
 
@@ -361,7 +335,6 @@ def categorize_strings(string_list):
     print("Odd strings:", odd)
     print("Even strings:", even)
 
-# ფუნქციის გამოძახება მაგალითისთვის:
 string_list = ["dato", "nika", "polieqtori", "zaza", "python", "java"]
 categorize_strings(string_list)
 
@@ -376,32 +349,21 @@ def process_string_list(string_list):
     even_count_list = []
 
     for string in string_list:
-        # გადავარეთ სტრინგი upper case-ში
         upper_case_string = string.upper()
 
-        # გამოვთვალოთ სტრინგში ლუწი და კენტი ასოების რაოდენობა
         even_count = sum(1 for char in upper_case_string if char.isalpha() and char.isupper() and ord(char) % 2 == 0)
         odd_count = len(upper_case_string) - even_count
 
-        # შევამოწმოთ და დავამატოთ სიაში
         if even_count % 2 == 0:
             even_count_list.append(upper_case_string)
         else:
             odd_count_list.append(upper_case_string)
 
-    # დავბეჭდოთ საბოლოო სიები
     print("Odd Count List:", odd_count_list)
     print("Even Count List:", even_count_list)
 
-# ფუნქციის გამოძახება მაგალითისთვის:
 string_list = ["dato", "nika", "polieqtori", "zaza", "python", "java"]
 process_string_list(string_list)
-
-
-
-
-
-
 
 
 
@@ -417,11 +379,9 @@ def process_string_list(string_list):
         elif string.islower():
             upper_case_list.append(string.upper())
 
-    # დაბეჭდვა საბოლოო სიის
     final_list = lower_case_list + upper_case_list
     print(final_list)
 
-# ფუნქციის გამოძახება მაგალითისთვის:
 string_list = ["dato", "LUKA", "nika", "POLIEQTORI", "zaza"]
 process_string_list(string_list)
 
