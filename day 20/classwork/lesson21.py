@@ -3,7 +3,6 @@ def display_info(first_name, last_name, age):
     print("Last Name:", last_name)
     print("Age:", age)
 
-# Example usage:
 first_name = "andria"
 last_name = "kobakhidze"
 age = 13

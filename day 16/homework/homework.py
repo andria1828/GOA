@@ -54,7 +54,7 @@ first_name = "ანდრია"
 last_name = "კობახიძე"
 age = 13
 location = "თბილისი"
-email = "ანდრია@example.com"
+email = "ანდრია@გმაილ.com"
 
 # შექმენით სია და დაბეჭდეთ ინფორმაცია
 user_info = [first_name, last_name, age, location, email]

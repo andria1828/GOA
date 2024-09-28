@@ -1,8 +1,5 @@
 from turtle import*
 
-
-
-#step 1 lets make door
 speed(16)
 color("brown")
 begin_fill()
@@ -131,9 +128,9 @@ forward(30)
 right(90)
 forward(15)
 left(90)
-forward(80)#size
+forward(80)
 left(90)
-forward(180) #heigth
+forward(180) 
 left(90)
 forward(80)
 right(90)
@@ -202,15 +199,15 @@ color("yellow")
 circle(20,-180)
 penup()
 goto(200,-200)
-color("green")#green
+color("green")
 pendown()
 forward(800) 
 right(90)
-forward(100) #color white
+forward(100) 
 color("white")
 forward(160)
 color("green")
-forward(50) #green
+forward(50) 
 left(90)
 forward(28)
 color("yellow")

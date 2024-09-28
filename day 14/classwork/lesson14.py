@@ -6,9 +6,6 @@ while count < 10:
 
 
 
-
-
-
     total = 0
 count = 0
 
@@ -24,8 +21,6 @@ sum = 0
 while num <=10:
     num = num + sum
     sum = sum +2
-
-#guess game
 
 while num !=5:
     num = int(input("enter number"))
