@@ -6,4 +6,4 @@ function name() {
     console.log("kobakhidze");
 }
 // ვიძახებთ ფუნქციას
-name(); // ეს რიგი იწვევს name ფუნქციის შესრულებას
+name();
